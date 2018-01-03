@@ -1,6 +1,6 @@
 {
-  "name": "learn-firebase-src",
-  "version": "0.0.1",
+  "name": "trixie-angular-web",
+  "version": "0.0.2",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -12,6 +12,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular-mdc/web": "^0.6.6",
     "@angular/animations": "^5.0.0",
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
