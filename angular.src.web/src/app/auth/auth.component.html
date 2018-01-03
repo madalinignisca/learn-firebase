@@ -1,0 +1,6 @@
+<div *ngIf="afAuth.authState | async as user; else showLogin">
+  <button mdc-button [secondary]="true" (click)="logout()">Logout</button>
+</div>
+<ng-template #showLogin>
+  <button mdc-button [secondary]="true" (click)="loginGoogle()">Login with Google</button>
+</ng-template>
